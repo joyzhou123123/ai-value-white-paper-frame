@@ -1,0 +1,28 @@
+{
+  "language_versions": [
+    "zh",
+    "en"
+  ],
+  "claims": [
+    {
+      "id": "CLAIM-001",
+      "text": "",
+      "status": "missing",
+      "source": "",
+      "source_date": "",
+      "conditions": "",
+      "publication_permission": "unknown"
+    }
+  ],
+  "economics": {
+    "currency": "",
+    "region": "",
+    "price_date": "",
+    "period_years": null,
+    "initial_local_cost": null,
+    "annual_local_cost": null,
+    "annual_cloud_cost": null,
+    "assumption_status": "missing",
+    "quality_comparable": false
+  }
+}
