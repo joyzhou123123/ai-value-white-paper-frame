@@ -4,6 +4,7 @@
 
 ### 中文
 
+- 精简中英文 README，新增模板界面预览和中英文可编辑模板下载包。
 - 新增不含具体方案资料的中英文可编辑 HTML 模板，可编辑正文、填写 Owner 表格、在浏览器暂存并下载。
 
 - 统一简版和证据型白皮书结构，增加利益披露、客户价值、对照方案、失败结果与不适用场景。
@@ -16,6 +17,7 @@
 
 ### English
 
+- Simplify the bilingual READMEs and add template screenshots and a downloadable template bundle.
 - Add generic editable Chinese and English HTML templates with narrative editing, owner tables, browser storage and downloadable copies.
 
 - Align the brief and evidence-led outlines; add disclosure, customer value, comparators, failures and unsuitable cases.
