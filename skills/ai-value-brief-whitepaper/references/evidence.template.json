@@ -5,10 +5,12 @@
   ],
   "claims": [
     {
-      "id": "CLAIM-001",
+      "id": "C-001",
       "text": "",
       "status": "missing",
+      "grade": "",
       "source": "",
+      "source_role": "",
       "source_date": "",
       "conditions": "",
       "publication_permission": "unknown"
@@ -19,10 +21,27 @@
     "region": "",
     "price_date": "",
     "period_years": null,
-    "initial_local_cost": null,
-    "annual_local_cost": null,
-    "annual_cloud_cost": null,
     "assumption_status": "missing",
-    "quality_comparable": false
+    "quality_comparable": false,
+    "options": [
+      {
+        "id": "status_quo",
+        "initial_cost": null,
+        "annual_cost": null,
+        "passed_tasks_per_year": null
+      },
+      {
+        "id": "proposed",
+        "initial_cost": null,
+        "annual_cost": null,
+        "passed_tasks_per_year": null
+      }
+    ],
+    "comparisons": [
+      {
+        "baseline_id": "status_quo",
+        "candidate_id": "proposed"
+      }
+    ]
   }
 }

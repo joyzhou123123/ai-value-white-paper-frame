@@ -1,6 +1,8 @@
 ---
 name: ai-value-evidence-whitepaper
 description: 撰写和审核借鉴 Signal65 公开研究方法的 AI Value 完整白皮书，覆盖真实工作负载、可复现评测、正确任务成本和商业价值，自动标黄缺口，输出中英文独立版本；Create bilingual evidence-led AI whitepapers and test plans. For a fast brief using limited materials, use ai-value-brief-whitepaper.
+metadata:
+  version: "2.0.0"
 ---
 
 # AI Value 证据型白皮书 / Evidence-led AI Value Whitepaper
@@ -23,10 +25,13 @@ description: 撰写和审核借鉴 Signal65 公开研究方法的 AI Value 完�
 7. 校验中英文一致、每项主张可追溯、数字单位及算术、黄底和文本标识、图表与正文一致及输出格式视觉质量。运行 `scripts/validate_evidence.py`（见 [校验说明](references/validation.md)）；校验仅用于发现结构、证据和数值缺口，不能代替事实核查、独立测试或授权审核。
 
 ## Reusable intake / 通用填写模板
-Use [the bilingual field-by-field intake template](references/intake-template.md) when gathering information or preparing owner-fillable tables. Apply the user’s requested format and preserve empty fields with yellow fill.
+Start with the [12-question owner intake](references/owner-intake.md), then use the [detailed field-by-field template](references/intake-template.md) as needed. Owners need not write JSON. Apply the user’s requested format and preserve empty fields with yellow fill.
 
 ## Integrated whitepaper and research capability / 综合写作与研究能力
 Apply [the integrated research and editorial workflow](references/research-methods.md) at the depth appropriate to the task: reader-first argument, source discovery and critical reading, traceable references, reproducibility, visual explanation and editorial review. These capabilities are built into this skill. Original upstream skills and their tools are optional and are not bundled.
 
 ## Editorial humanization / 双语语言审校
 After drafting and before final evidence and layout checks, apply [the bilingual humanizer-inspired editorial pass](references/humanizer-review.md) to both language versions. Preserve claims, figures, conditions, citations, limitations and yellow gap markers. The editorial pass is built in; the original `humanizer` skill is optional and not bundled.
+
+## Evidence, value and review / 证据、价值与审阅
+Apply [credibility, value and evaluation rules](references/credibility-and-economics.md): disclose authorship and interests; compare realistic alternatives fairly; present failures with successes; include when the solution is not appropriate; separate completeness from evidence grade and source role; attach claim IDs to evidence in review drafts. Present value levers with baselines and report economics over the actual lifecycle. Highlight unresolved claims. For hybrid/device work apply the relevant additional metrics and test conditions. Label review deliverables “DRAFT — NOT FOR DISTRIBUTION / 审阅稿 · 请勿对外分发”; a human resolves factual, authorization and yellow-marked gaps before public release. Never claim the script alone authorizes release.

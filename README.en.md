@@ -2,6 +2,8 @@
 
 **[简体中文](README.md) | English**
 
+Current version: **v2.0.0** · [Changelog](CHANGELOG.md)
+
 A reusable AI value whitepaper framework that turns product materials, customer scenarios, test results and cost inputs into decision-oriented articles. It helps readers answer: **who a solution serves, how it performs, what value it can provide, and what supports those conclusions.**
 
 The project provides two Codex Skills: a brief for getting started with incomplete information and an evidence-led framework for deeper testing and value analysis. The framework is not tied to a particular product, customer or industry. It defaults to separate Chinese and English deliverables; a single language can be requested.
@@ -55,7 +57,7 @@ An environment with automatic discovery may select a skill from the task descrip
 | Tests and quality | Task samples, baseline, hardware/software, models, method, results and raw records | Retain qualified results; highlight missing conditions, quality or comparators. |
 | Costs and permissions | Quotations, usage, region, currency, date, operations and disclosure permissions | Mark missing inputs or permissions; do not present illustrative assumptions as realized benefits. |
 
-To collect inputs from owners, copy the [bilingual intake template](skills/ai-value-brief-whitepaper/references/intake-template.md). Industry, region, organization size, configuration, tests and costs are separate fields; populate existing information first.
+To collect inputs from owners, start with the [one-page owner intake (12 questions)](skills/ai-value-brief-whitepaper/references/owner-intake.md), then use the [detailed intake template](skills/ai-value-brief-whitepaper/references/intake-template.md) if needed. Industry, region, organization size, configuration, tests and costs are separate fields; populate existing information first.
 
 ### Use it in stages
 
@@ -70,40 +72,33 @@ To collect inputs from owners, copy the [bilingual intake template](skills/ai-va
 
 Both formats follow the reader's decision process, with an executive summary, structured sections, supporting evidence and applicability limits. Numbers, sources and qualifications remain consistent across languages. Sections and length can be adapted to the solution, reader and evidence maturity.
 
-### Brief: understand the solution and available value
+### Brief: explain the solution around one customer task
+
+The brief prioritizes available evidence and covers the customer, status quo, solution, realistic comparators, successes and failures, value and applicability. Review drafts retain yellow gaps and connect claim IDs to evidence.
+
+### Evidence-led: support decisions under comparable conditions
 
 | Section | Question answered | Main readers |
 |---|---|---|
-| Executive summary | What problem is addressed and what is currently supported? | Executives and customer leads |
-| Business challenge and use case | Who faces which problem in what work? | Business and sales |
-| Solution and how it works | How does it work and what is supported? | IT and architects |
-| Performance and value | What results and conditions exist, and what do they mean? | Technical and business teams |
-| Economics | What costs, benefits and calculation inputs are known? | Procurement and finance |
-| Deployment and applicability | What are the requirements and limits? | Implementation and operations |
-| Sources and methods | Where do the numbers come from and how should they be read? | Reviewers and technical teams |
+| Authorship and interests | Who authored, tested and funded the work, and what are their interests? | All readers |
+| Executive summary | What are the customer problem, key findings and limits? | Executives |
+| Customer, task and baseline | Which industry and role face what task, and how is it done today? | Business, industry teams |
+| Solution and scope | What are the system, configuration, data paths and support boundaries? | Architects, IT |
+| Comparators | What is the status quo, what alternatives are realistic and is comparison fair? | Solution teams, procurement |
+| Results and quality | Was the task correct; what were failures, latency and capacity? | Technical and business teams |
+| Customer value | What evidence supports productivity, quality, control, experience, cost and new capability? | Business, finance |
+| Economics | What are lifecycle costs, cost per passed task and both-sided break-even conditions? | Finance, procurement |
+| Hybrid operation | Where applicable, how do local/external routing, quality and costs behave? | Architects, operations |
+| When not to choose | Which tasks fail or are better served by an alternative? | All readers |
+| Whole product and deployment | Which components, integrations, partners and support exist or are missing? | Implementation, IT |
+| Sources and methods | What evidence type, source, conditions and rights support each claim? | Testers, reviewers |
+| Market evidence | What authorized customer references, partners or independent tests exist? | Decision-makers, legal |
 
-[Read the brief outline](skills/ai-value-brief-whitepaper/references/brief-framework.md)
-
-### Evidence-led: evaluate and compare
-
-| Section | Question answered | Main readers |
-|---|---|---|
-| Executive summary | What is the decision, result and limitation? | Executives |
-| Industry and customer need | What supports the scenario and baseline? | Business and industry teams |
-| Solution architecture | What system, versions, configuration and data paths apply? | Architects and IT |
-| Workloads and comparators | What tasks and alternatives are compared? | Solution teams and procurement |
-| Test methodology | How was the test configured, run and measured? | Testing and architects |
-| Results and quality | Was the task completed correctly, and how did it perform? | Technical and business teams |
-| Capacity | How much work meets service requirements? | IT and operations |
-| Business value and economics | What are the full costs, cost per passed task and sensitivities? | Finance, procurement and executives |
-| Implementation and limitations | What deployment, operational, data and scope limits apply? | Implementation and security teams |
-| Appendix and disclosures | What are the sources, configurations, test roles and permissions? | Reviewers, legal and procurement |
-
-[Read the evidence-led outline](skills/ai-value-evidence-whitepaper/references/evidence-framework.md)
+[Read the brief outline](skills/ai-value-brief-whitepaper/references/brief-framework.md) · [Read the evidence-led outline](skills/ai-value-evidence-whitepaper/references/evidence-framework.md)
 
 ### How incomplete information is shown
 
-Review drafts use pale-yellow fill on **the affected passages, numbers or table fields**, together with “Missing” or “To verify” and the evidence required; plain-text output uses text markers. Owner assignments belong in a separate checklist, while customer-facing prose remains professional. Fact, test-condition and publication-rights reviews are still needed before release.
+Review drafts use pale-yellow fill on **the affected passages, numbers or table fields**, together with “Missing” or “To verify” and the evidence required; plain-text output uses text markers. Owner assignments belong in a separate checklist, while customer-facing prose remains professional. Review drafts carry “DRAFT — NOT FOR DISTRIBUTION”. A human must resolve yellow markers and review facts, test conditions and publication rights before release.
 
 ## Which skills informed the framework
 
@@ -136,7 +131,7 @@ Method references: [Measuring Correct Work](https://pinnacle.signal65.com/measur
 
 ## How to check evidence and economics
 
-Each skill includes a Python standard-library script, `scripts/validate_evidence.py`. Copy the [blank JSON template](skills/ai-value-brief-whitepaper/references/evidence.template.json), fill it in as `evidence.json` using the [validation guide](skills/ai-value-brief-whitepaper/references/validation.md), or ask Codex to organize the input for an owner to review.
+Each skill includes a Python standard-library script, `scripts/validate_evidence.py`. Copy the [blank JSON template](skills/ai-value-brief-whitepaper/references/evidence.template.json), fill it in as `evidence.json` using the [validation guide](skills/ai-value-brief-whitepaper/references/validation.md), or ask Codex to organize the inputs from the one-page intake for an owner to review.
 
 From the project root:
 
@@ -144,7 +139,7 @@ From the project root:
 python3 skills/ai-value-brief-whitepaper/scripts/validate_evidence.py evidence.json
 ```
 
-The evidence-led script is at `skills/ai-value-evidence-whitepaper/scripts/validate_evidence.py`. It checks structured evidence, statuses, publication-permission status, basic cost inputs and simplified arithmetic: exit code `0` means no structural or completeness flags, `1` means missing or unverified items, and `2` means invalid JSON, schema or arithmetic. It **cannot** establish source truth, test reproducibility or valid authorization, and does not independently review an entire document.
+The evidence-led script is at `skills/ai-value-evidence-whitepaper/scripts/validate_evidence.py`. It checks structured evidence, statuses, evidence grades, publication-permission status, multi-option period costs and simplified arithmetic. `--text review.txt` checks claim IDs such as `[C-001]` in plain text; `--languages en` applies when a single-language output was explicitly requested: exit code `0` means no structural or completeness flags, `1` means missing or unverified items, and `2` means invalid JSON, schema or arithmetic. It **cannot** establish source truth, test reproducibility or valid authorization, and does not independently review an entire document.
 
 ## Project structure and credits
 
@@ -153,7 +148,7 @@ README.md / README.en.md
 skills/<skill-name>/
 ├── SKILL.md
 ├── agents/openai.yaml
-├── references/       # outlines, research, editorial, intake and validation guides
+├── references/       # outlines, credibility, one-page intake, research and validation
 └── scripts/validate_evidence.py
 ```
 
