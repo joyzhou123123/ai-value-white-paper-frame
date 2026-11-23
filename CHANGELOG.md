@@ -4,6 +4,7 @@
 
 ### 中文
 
+- 补充框架价值、证据链、客户价值与 Signal65 方法的对照说明。
 - 精简中英文 README，新增模板界面预览和中英文可编辑模板下载包。
 - 新增不含具体方案资料的中英文可编辑 HTML 模板，可编辑正文、填写 Owner 表格、在浏览器暂存并下载。
 
@@ -17,6 +18,7 @@
 
 ### English
 
+- Expand the framework value, evidence chain, customer-value analysis and Signal65 methodology comparison.
 - Simplify the bilingual READMEs and add template screenshots and a downloadable template bundle.
 - Add generic editable Chinese and English HTML templates with narrative editing, owner tables, browser storage and downloadable copies.
 
