@@ -128,6 +128,19 @@
 
 方法参考：[Measuring Correct Work](https://pinnacle.signal65.com/measuring-correct-work-pg-1/)、[The Economics of Agentic AI](https://signal65.com/wp-content/uploads/2026/05/Signal65-Insights_The-Economics-of-Agentic-AI.pdf) 和 [The New Economics of AI Inference](https://signal65.com/research/ai/from-dense-to-mixture-of-experts-the-new-economics-of-ai-inference/)。Signal65 的研究可能有特定合作伙伴、模型和测试假设；本框架只借鉴方法，**不代表 Signal65 参与、认证、测试或背书**。
 
+## 可编辑 HTML 模板怎么用
+
+两套 Skill 均附带自包含的[中文可编辑模板](skills/ai-value-brief-whitepaper/assets/editable-whitepaper-zh.html)和[英文可编辑模板](skills/ai-value-brief-whitepaper/assets/editable-whitepaper-en.html)。模板不包含具体产品、客户、价格或测试结果。
+
+在 Codex 中要求“输出可编辑 HTML”，Skill 会复制模板并根据你的资料填写正文，保留待补内容的黄色标记；Owner 可直接填写表格，也可以新增行。点击 **编辑正文** 修改文章，点击 **下载已编辑 HTML** 保存可继续编辑的单文件。
+
+修改只自动保存在当前浏览器；下载 HTML 后才能作为文件分享或长期保存。页面不提供多人实时协作，也不会把内容上传到 GitHub。正式对外发布前需要人工审核资料与授权。
+
+```text
+使用 $ai-value-brief-whitepaper，基于所附资料生成中文和英文可编辑 HTML 白皮书；
+已知内容先填写，缺失内容标黄，Owner 表格字段保持可编辑。
+```
+
 ## 如何检查证据与经济账
 
 每套 Skill 自带基于 Python 标准库的 `scripts/validate_evidence.py`。先复制[空白 JSON 模板](skills/ai-value-brief-whitepaper/references/evidence.template.json)，根据[校验说明](skills/ai-value-brief-whitepaper/references/validation.md)填写为 `evidence.json`；可由 Codex 从一页表和材料整理 JSON，再由负责人核对。

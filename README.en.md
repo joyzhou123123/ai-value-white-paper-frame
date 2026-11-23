@@ -129,6 +129,20 @@ This compares **aspects of public research and evaluation methods**. It does not
 
 Method references: [Measuring Correct Work](https://pinnacle.signal65.com/measuring-correct-work-pg-1/), [The Economics of Agentic AI](https://signal65.com/wp-content/uploads/2026/05/Signal65-Insights_The-Economics-of-Agentic-AI.pdf), and [The New Economics of AI Inference](https://signal65.com/research/ai/from-dense-to-mixture-of-experts-the-new-economics-of-ai-inference/). Signal65 studies may have specific partners, models and assumptions. This framework adapts methods; it **does not imply Signal65 participation, certification, testing or endorsement**.
 
+## Using the editable HTML templates
+
+Both skills include self-contained [Chinese](skills/ai-value-brief-whitepaper/assets/editable-whitepaper-zh.html) and [English](skills/ai-value-brief-whitepaper/assets/editable-whitepaper-en.html) editable templates. They contain no specific product, customer, pricing or test data.
+
+Ask Codex for an editable HTML deliverable. The skill copies a template, fills it from your materials and retains yellow markers for missing evidence; owners can type directly in the tables and add rows. Select **Edit paper** to edit the narrative and **Download edited HTML** to save a single editable file.
+
+Changes are automatically stored only in the current browser. Download the HTML for sharing or longer-term storage. The page does not offer real-time collaboration or upload content to GitHub. Facts and publication rights require human review before release.
+
+```text
+Use $ai-value-brief-whitepaper to create separate Chinese and English editable HTML
+whitepapers from my materials. Fill what is known, highlight gaps in yellow and
+leave the owner table fields editable.
+```
+
 ## How to check evidence and economics
 
 Each skill includes a Python standard-library script, `scripts/validate_evidence.py`. Copy the [blank JSON template](skills/ai-value-brief-whitepaper/references/evidence.template.json), fill it in as `evidence.json` using the [validation guide](skills/ai-value-brief-whitepaper/references/validation.md), or ask Codex to organize the inputs from the one-page intake for an owner to review.

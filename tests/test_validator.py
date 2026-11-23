@@ -94,7 +94,9 @@ class ValidationTests(unittest.TestCase):
         shared = ['scripts/validate_evidence.py', 'references/credibility-and-economics.md',
                   'references/owner-intake.md', 'references/validation.md',
                   'references/evidence.template.json', 'references/intake-template.md',
-                  'references/research-methods.md', 'references/humanizer-review.md']
+                  'references/research-methods.md', 'references/humanizer-review.md',
+                  'references/editable-html.md', 'assets/editable-whitepaper-zh.html',
+                  'assets/editable-whitepaper-en.html']
         for name in shared:
             self.assertEqual((left / name).read_bytes(), (right / name).read_bytes(), name)
 
