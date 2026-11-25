@@ -16,3 +16,8 @@ After: “该方案可用于支持指定业务任务；效率变化需结合任�
 If an outcome has not been measured, retain `[待验证：任务耗时与验收结果]` / `[TO VERIFY: task time and acceptance results]` and yellow highlight where the format supports it.
 
 Method credit: adapted selectively from the local `humanizer` skill, based on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). The original skill is not included in this project; it may be invoked separately if installed and requested.
+
+
+## 对外正文与审阅材料 / Public-facing prose and review material
+
+正文使用面向客户的简洁表述，移除“截图口径”“原文写道”“本稿补入”“本轮新增”等资料整理痕迹；必要来源、日期、方法、验证状态与适用范围以引用或简明说明保留。内部补充说明与 Owner 分工放在明确标识的审阅区。删除没有证据支持的推断和宣传性判断，不靠语言润色把待验证内容写成事实。保持用户指定的产品全名，不在重述时擅自缩写。

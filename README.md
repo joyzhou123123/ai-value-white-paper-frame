@@ -5,7 +5,7 @@
 把现有方案资料整理成专业的 AI Value 白皮书。项目提供**简版**和**证据型**两套 Skill，以及可直接填写的中英文 HTML 模板。
 
 
-**[下载中英文模板](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v2.0.0/AI-Value-Editable-Templates.zip)** · [查看模板](#快速开始与模板) · [选择 Skill](#两套-skill-怎么选)
+**[下载中英文模板](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v3.0.0/AI-Value-Editable-Templates.zip)** · [查看模板](#快速开始与模板) · [选择 Skill](#两套-skill-怎么选)
 
 ## 目录
 
@@ -81,7 +81,7 @@ AI 方案资料通常散落在产品介绍、架构图、性能报告、报价�
 |---|---|---|
 | 简版 Skill | 根据现有资料形成可阅读的方案白皮书，识别缺口 | [SKILL.md](skills/ai-value-brief-whitepaper/SKILL.md) · [文章结构](skills/ai-value-brief-whitepaper/references/brief-framework.md) |
 | 证据型 Skill | 组织真实任务、可比评测、客户价值及经济账 | [SKILL.md](skills/ai-value-evidence-whitepaper/SKILL.md) · [文章结构](skills/ai-value-evidence-whitepaper/references/evidence-framework.md) |
-| 可编辑模板 | 浏览器中编辑正文、填写表格并下载 HTML | [下载中英文模板](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v2.0.0/AI-Value-Editable-Templates.zip) · [使用说明](skills/ai-value-brief-whitepaper/references/editable-html.md) |
+| 可编辑模板 | 浏览器中编辑正文、填写表格并下载 HTML | [下载中英文模板](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v3.0.0/AI-Value-Editable-Templates.zip) · [使用说明](skills/ai-value-brief-whitepaper/references/editable-html.md) |
 | Owner 填写入口 | 将待补证据拆成团队可以回答的问题 | [一页填写表](skills/ai-value-brief-whitepaper/references/owner-intake.md) · [详细输入](skills/ai-value-brief-whitepaper/references/intake-template.md) |
 | 校验工具 | 检查结构化证据与经济账输入的一致性 | [校验说明](skills/ai-value-brief-whitepaper/references/validation.md) · [数据模板](skills/ai-value-brief-whitepaper/references/evidence.template.json) |
 
@@ -107,7 +107,7 @@ AI 方案资料通常散落在产品介绍、架构图、性能报告、报价�
 
 </details>
 
-**[下载中英文可编辑模板（ZIP）](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v2.0.0/AI-Value-Editable-Templates.zip)**
+**[下载中英文可编辑模板（ZIP）](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v3.0.0/AI-Value-Editable-Templates.zip)**
 
 下载后解压，双击 `editable-whitepaper-zh.html` 或 `editable-whitepaper-en.html`，用浏览器打开即可。点击顶部 **“编辑正文”** 修改文章；Owner 可以直接点击浅黄色单元格填写。完成后点击 **“下载已编辑 HTML”** 保存文件。
 
@@ -123,6 +123,8 @@ AI 方案资料通常散落在产品介绍、架构图、性能报告、报价�
 | 常见场景 | 内部评审、首次客户沟通、材料梳理 | PoC 复盘、采购评估、系统测试和投资决策 |
 
 两套都默认分别输出中文版和英文版；也可以明确指定只要一种语言。缺失或待验证的具体内容会标浅黄色，并用文字说明。
+
+V3.0 增加逐字段 Owner 表、数据状态、完整产品名称及自然措辞规则。单文件双语切换与同步属于按需生成能力，需要可用的翻译引擎；仓库现有下载包仍是两个独立 HTML 模板，并不内置自动双向翻译。
 
 ### 如何使用 Skill
 
@@ -186,6 +188,6 @@ AI 方案资料通常散落在产品介绍、架构图、性能报告、报价�
 
 ---
 
-当前版本：**v2.0.0** · [更新记录](CHANGELOG.md) · [项目文件](skills/)
+当前版本：**v3.0.0** · [更新记录](CHANGELOG.md) · [项目文件](skills/)
 
 方法参考：Equipt 技能内容采用 [CC BY 4.0](https://github.com/Salah-XD/equipt/blob/main/LICENSE-CONTENT)；research-paper 项目采用 [MIT](https://github.com/aniketkrs/research-paper/blob/main/LICENSE)；语言审校参考 [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)。

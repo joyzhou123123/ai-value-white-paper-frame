@@ -2,7 +2,7 @@
 name: ai-value-evidence-whitepaper
 description: 撰写和审核借鉴 Signal65 公开研究方法的 AI Value 完整白皮书，覆盖真实工作负载、可复现评测、正确任务成本和商业价值，自动标黄缺口，输出中英文独立版本；Create bilingual evidence-led AI whitepapers and test plans. For a fast brief using limited materials, use ai-value-brief-whitepaper.
 metadata:
-  version: "2.0.0"
+  version: "3.0.0"
 ---
 
 # AI Value 证据型白皮书 / Evidence-led AI Value Whitepaper
@@ -38,3 +38,7 @@ Apply [credibility, value and evaluation rules](references/credibility-and-econo
 
 ## Editable HTML / 可编辑网页交付
 When the user requests editable HTML, copy the appropriate [Chinese template](assets/editable-whitepaper-zh.html) and/or [English template](assets/editable-whitepaper-en.html) into the output directory, then follow [editable HTML instructions](references/editable-html.md). Fill verified material, mark missing/unverified content yellow, retain independently editable Owner fields, and test editing, browser persistence and downloaded files. Keep the bundled templates generic and the user's source data out of the skill itself.
+
+For a single HTML with language switching, bidirectional translation, or automatic completion colors, follow [bilingual editing and completion state](references/editable-html.md); do not claim automatic translation without a working translation engine.
+
+For owner-ready tables, evidence states, product naming, and economic inputs, follow [editable HTML and owner tables](references/editable-html.md). Apply [external-facing prose rules](references/humanizer-review.md).

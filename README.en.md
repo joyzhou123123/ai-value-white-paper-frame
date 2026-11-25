@@ -5,7 +5,7 @@
 Turn existing solution materials into an enterprise AI value whitepaper. This project provides **brief** and **evidence-led** skills, plus editable Chinese and English HTML templates.
 
 
-**[Download templates](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v2.0.0/AI-Value-Editable-Templates.zip)** · [Preview](#quick-start-and-templates) · [Choose a skill](#choose-a-skill)
+**[Download templates](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v3.0.0/AI-Value-Editable-Templates.zip)** · [Preview](#quick-start-and-templates) · [Choose a skill](#choose-a-skill)
 
 ## Contents
 
@@ -81,7 +81,7 @@ Skills guide writing and evidence gathering; HTML supports editing and delivery;
 |---|---|---|
 | Brief skill | Create a readable paper from available material and identify gaps | [SKILL.md](skills/ai-value-brief-whitepaper/SKILL.md) · [Outline](skills/ai-value-brief-whitepaper/references/brief-framework.md) |
 | Evidence-led skill | Organize real tasks, comparisons, customer value and economics | [SKILL.md](skills/ai-value-evidence-whitepaper/SKILL.md) · [Outline](skills/ai-value-evidence-whitepaper/references/evidence-framework.md) |
-| Editable templates | Edit, complete tables and download HTML in a browser | [Download templates](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v2.0.0/AI-Value-Editable-Templates.zip) · [Guide](skills/ai-value-brief-whitepaper/references/editable-html.md) |
+| Editable templates | Edit, complete tables and download HTML in a browser | [Download templates](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v3.0.0/AI-Value-Editable-Templates.zip) · [Guide](skills/ai-value-brief-whitepaper/references/editable-html.md) |
 | Owner intake | Turn evidence gaps into answerable questions | [One-page intake](skills/ai-value-brief-whitepaper/references/owner-intake.md) · [Detailed intake](skills/ai-value-brief-whitepaper/references/intake-template.md) |
 | Validators | Check consistency of structured evidence and economic inputs | [Validation guide](skills/ai-value-brief-whitepaper/references/validation.md) · [Data template](skills/ai-value-brief-whitepaper/references/evidence.template.json) |
 
@@ -100,7 +100,7 @@ The image below shows the English template. The narrative is editable, owners ca
 
 ![English whitepaper template preview](docs/images/template-preview-en.png)
 
-**[Download editable templates in Chinese and English (ZIP)](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v2.0.0/AI-Value-Editable-Templates.zip)**
+**[Download editable templates in Chinese and English (ZIP)](https://github.com/joyzhou123123/ai-value-white-paper-frame/releases/download/v3.0.0/AI-Value-Editable-Templates.zip)**
 
 Unzip the file and open `editable-whitepaper-en.html` or `editable-whitepaper-zh.html` in a browser. Select **Edit paper** to edit the narrative; owners can type directly in pale-yellow cells. Select **Download edited HTML** to save a copy.
 
@@ -116,6 +116,8 @@ Unzip the file and open `editable-whitepaper-en.html` or `editable-whitepaper-zh
 | Typical uses | Internal review, first customer conversations and organizing materials | PoC review, procurement, systematic tests and investment decisions |
 
 Both skills default to separate Chinese and English outputs; request one language if preferred. Specific missing or unverified content receives a pale-yellow marker and a text label.
+
+V3.0 adds field-by-field owner tables, data states, full product naming and editorial guidance. A single bilingual document with synchronized translation requires a working translation engine; the downloadable bundle contains two separate HTML templates and does not provide automatic bidirectional translation.
 
 ### Use a skill
 
@@ -180,6 +182,6 @@ Yellow markers and the draft label are for internal review. Review facts, test c
 
 ---
 
-Current version: **v2.0.0** · [Changelog](CHANGELOG.md) · [Project files](skills/)
+Current version: **v3.0.0** · [Changelog](CHANGELOG.md) · [Project files](skills/)
 
 Method credits: Equipt skill content is licensed [CC BY 4.0](https://github.com/Salah-XD/equipt/blob/main/LICENSE-CONTENT); research-paper is licensed [MIT](https://github.com/aniketkrs/research-paper/blob/main/LICENSE); editorial guidance refers to [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).

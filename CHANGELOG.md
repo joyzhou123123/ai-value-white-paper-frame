@@ -1,5 +1,19 @@
 # 版本更新记录 / Changelog
 
+## v3.0.0 — 2026-11-25
+
+### 中文
+
+- 新增逐字段 Owner 表格、已填写与已有数据待录入等状态规则，依据用户定义解释 Y；缺失和待验证仍需明确标注。
+- 明确完整产品名称、模型分类、自然专业措辞，以及成本公式和假设的写法。
+- 增加单文件双语切换、编辑翻译同步和翻译失败提示的交付规范；自动翻译需要可用的翻译引擎，现有下载模板仍为独立中英文文件。
+
+### English
+
+- Add field-by-field owner tables and distinguish completed, available-but-not-entered, missing and unverified content; interpret Y only as specified by the user.
+- Clarify full product names, model classification, professional editorial style, and transparent cost formulas and assumptions.
+- Add guidance for single-file language switching, bidirectional translation and failure handling; a working translation engine is required, and the downloadable templates remain separate language files.
+
 ## v2.0.0 — 2026-11-23
 
 ### 中文
