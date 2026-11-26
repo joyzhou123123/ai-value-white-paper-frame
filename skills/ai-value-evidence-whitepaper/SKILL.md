@@ -15,6 +15,12 @@ metadata:
 - 内容或依据不足时，无须等待用户提醒：在受影响的具体段落、主张、数字或表格单元格自动加浅黄色底色，并写明“待补充/待验证”及缺什么；英文对应 “Missing/To verify”。纯文本用 `[待补充：…]` / `[TO VERIFY: …]`。黄底必须配文字，不能仅靠颜色。无证据的内容不伪装成事实或把缺失当零；已有可靠事实正常填写。
 - 面向客户的正文采用专业叙述，不混入资料整理过程、指派 Owner 或内部待办。将未核实的对外主张标黄，配独立证据缺口及 Owner 清单；尚未获准公开的证据不放入正式对外版，不自行发布、发送或上传。
 
+## 设备类别用词 / Device terminology
+
+描述自家方案的设备类别时，中文统一用“本地台式机”，英文统一用“local desktop PC”。仅在竞品分析中指称对方产品时保留其官方叫法（如“工作站”或“workstation”）。对照表逐列按产品归属选词，正文、图表、Owner 填写表及双向翻译均遵循同一规则。
+
+Use “本地台式机” in Chinese and “local desktop PC” in English for the device category in our own solutions. Use a competitor’s official designation (such as “workstation”) only when referring to its product in competitive analysis. In comparison tables, apply the rule separately to each product’s column. Apply it throughout the text, figures, Owner forms and translations in both directions.
+
 ## Workflow / 工作流程
 1. 识别决策者、行业和地区、真实工作负载、方案范围及可公开材料；建立结论—证据—条件—权限台账。按 [中英文完整框架](references/evidence-framework.md) 对照已有、部分已有、未提供及不适用，不把“未看到”当作组织内不存在。
 2. 构建证据链：客户任务与现有流程 → 对照方案 → 技术方案及配置 → 任务质量与性能 → 承载能力 → 每个合格任务成本 → 客户价值与适用边界。对 Agent 分别测任务完成、结果准确、工具调用、错误与人工介入；量化精度变化应同时验证输出质量。
